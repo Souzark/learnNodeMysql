@@ -1,20 +1,25 @@
-require = require('express');
+const express = require('express');
 const app = express();
-const handlebars = require('express-handlebars');
+const { engine } = require('express-handlebars'); // Nova forma de importar o motor do Handlebars
 const Sequelize = require('sequelize');
 
 // Configuração do Handlebars  
-    //template engine
-    app.engine('handlebars', handlebars({defaultLayout:'main'});
-    app.set('view engine', 'handlebars');
-    // Configuração do Sequelize
+// Template engine
+app.engine('handlebars', engine({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+
+// Configuração do Sequelize
 const sequelize = new Sequelize('test', 'root', '6cfcf526', {
-    host: 'localhost',
-    dialect: 'mysql',
-  });
-  
+  host: 'localhost',
+  dialect: 'mysql',
+});
 
+// Rotas
+app.get('/cad', function (req, res) {
+  res.end('Rota de cadastro de postagem');
+});
 
-app.listen(8081, function(){
-        console.log('Servidor rodando na url http://localhost:8081');
-    });
+// Inicialização do servidor
+app.listen(8081, function () {
+  console.log('Servidor rodando na url http://localhost:8081');
+});
