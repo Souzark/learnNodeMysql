@@ -1,0 +1,75 @@
+mysql-configurator Information: 10 : Package - setting up controller
+DateTime=2025-01-02T22:42:44.5156671Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2025-01-02T22:42:44.5404863Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2025-01-02T22:42:44.5489067Z
+mysql-configurator Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2025-01-02T22:42:44.5489067Z
+mysql-configurator Information: 10 : Product configuration controller created.
+DateTime=2025-01-02T22:42:44.5489067Z
+mysql-configurator Information: 10 : Package - Initializing controller
+DateTime=2025-01-02T22:42:44.5732816Z
+mysql-configurator Information: 10 : Package - Installed - Loading controller state
+DateTime=2025-01-02T22:42:44.5817466Z
+mysql-configurator Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2025-01-02T22:42:44.5817466Z
+mysql-configurator Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2025-01-02T22:42:44.5817466Z
+mysql-configurator Information: 10 : Reading general settings file from 'C:\Program Files\MySQL\MySQL Server 9.1'...
+DateTime=2025-01-02T22:42:44.5817466Z
+mysql-configurator Information: 10 : Loaded general settings file.
+DateTime=2025-01-02T22:42:44.6307406Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2025-01-02T22:42:44.6889520Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2025-01-02T22:42:45.0911868Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2025-01-02T22:42:45.0911868Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - loading IniFileEngine
+DateTime=2025-01-02T22:42:45.0911868Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - IniTemplate Parsing
+DateTime=2025-01-02T22:42:45.1076832Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - getting settings from IniTemplate
+DateTime=2025-01-02T22:42:45.1812670Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - getting settings from IniFileEngine
+DateTime=2025-01-02T22:42:45.1812670Z
+mysql-configurator Information: 10 : Reading general settings file from 'C:\Program Files\MySQL\MySQL Server 9.1'...
+DateTime=2025-01-02T22:42:45.2652512Z
+mysql-configurator Information: 10 : Loaded general settings file.
+DateTime=2025-01-02T22:42:45.2652512Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting License from location
+DateTime=2025-01-02T22:42:45.2734235Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting architecture from location
+DateTime=2025-01-02T22:42:45.2734235Z
+mysql-configurator Information: 10 : Product configuration controller set to 'Reconfiguration' configuration type.
+DateTime=2025-01-02T22:42:45.7369177Z
+mysql-configurator Error: 50 : Failed to retrieve the data directory from the MySQL Server instance.
+DateTime=2025-01-02T22:42:48.8744957Z
+mysql-configurator Error: 50 : Unable to connect to any of the specified MySQL hosts.
+DateTime=2025-01-02T22:42:48.8744957Z
+mysql-configurator Information: 10 : Found existing data directory, no need to initialize the database.
+DateTime=2025-01-02T22:42:48.8829310Z
+mysql-configurator Information: 10 : Beginning ServerConfigLocalMachinePage.
+DateTime=2025-01-02T22:42:49.2694809Z
+mysql-configurator Information: 10 : Status: Reconfiguration;MySQL Server 9.1.0;Data Directory: C:\ProgramData\MySQL\MySQL Server 9.1
+DateTime=2025-01-02T22:42:49.2951707Z
+mysql-configurator Information: 10 : Advancing to next step using:
+	Service Name: MySQL91
+	Enable TCP/IP: True
+	Port: 3306
+	Enable pipe: False
+	Pipe name: MYSQL
+	Enable shared memory: False
+	Memory name MYSQL
+DateTime=2025-01-02T22:42:51.9787352Z
+mysql-configurator Information: 10 : Beginning ServerConfigUserAccountsPage.
+DateTime=2025-01-02T22:42:52.3902501Z
+mysql-configurator Error: 50 : Failed to retrieve the data directory from the MySQL Server instance.
+DateTime=2025-01-02T22:43:00.6173040Z
+mysql-configurator Error: 50 : Unable to connect to any of the specified MySQL hosts.
+DateTime=2025-01-02T22:43:00.6173040Z
+mysql-configurator Error: 50 : Failed to retrieve the data directory from the MySQL Server instance.
+DateTime=2025-01-02T22:43:02.6502976Z
+mysql-configurator Error: 50 : Unable to connect to any of the specified MySQL hosts.
+DateTime=2025-01-02T22:43:02.6502976Z

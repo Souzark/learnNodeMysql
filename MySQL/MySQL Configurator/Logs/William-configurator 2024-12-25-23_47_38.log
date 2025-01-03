@@ -1,0 +1,55 @@
+mysql-configurator Information: 10 : Package - setting up controller
+DateTime=2024-12-23T19:10:58.9382335Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-23T19:10:59.1056748Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-23T19:10:59.1166367Z
+mysql-configurator Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2024-12-23T19:10:59.1177005Z
+mysql-configurator Information: 10 : Product configuration controller created.
+DateTime=2024-12-23T19:10:59.1206227Z
+mysql-configurator Information: 10 : Package - Initializing controller
+DateTime=2024-12-23T19:10:59.2781655Z
+mysql-configurator Information: 10 : Package - Installed - Loading controller state
+DateTime=2024-12-23T19:10:59.2870663Z
+mysql-configurator Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2024-12-23T19:10:59.2870663Z
+mysql-configurator Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2024-12-23T19:10:59.2870663Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2024-12-23T19:10:59.2910516Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2024-12-23T19:10:59.3538441Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2024-12-23T19:10:59.3778398Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - Loading default settings
+DateTime=2024-12-23T19:10:59.3788363Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2024-12-23T19:10:59.3797554Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting License from location
+DateTime=2024-12-23T19:10:59.3808202Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting architecture from location
+DateTime=2024-12-23T19:10:59.3817494Z
+mysql-configurator Information: 10 : Product configuration controller set to 'New' configuration type.
+DateTime=2024-12-23T19:10:59.6269291Z
+mysql-configurator Information: 10 : Beginning WelcomePage.
+DateTime=2024-12-23T19:10:59.9408829Z
+mysql-configurator Information: 10 : Status: New configuration;MySQL Server 9.1.0;
+DateTime=2024-12-23T19:10:59.9618088Z
+mysql-configurator Information: 10 : Beginning ServerConfigDataDirectoryPage.
+DateTime=2024-12-23T19:28:48.6046237Z
+mysql-configurator Information: 10 : Status: New configuration;MySQL Server 9.1.0;Data Directory: C:\ProgramData\MySQL\MySQL Server 9.1\
+DateTime=2024-12-23T19:28:49.6375326Z
+mysql-configurator Information: 10 : Beginning ServerConfigLocalMachinePage.
+DateTime=2024-12-23T19:28:49.7083549Z
+mysql-configurator Information: 10 : Advancing to next step using:
+	Service Name: MySQL91
+	Enable TCP/IP: True
+	Port: 3306
+	Enable pipe: False
+	Pipe name: MYSQL
+	Enable shared memory: False
+	Memory name MYSQL
+DateTime=2024-12-23T19:28:50.2878675Z
+mysql-configurator Information: 10 : Beginning ServerConfigUserAccountsPage.
+DateTime=2024-12-23T19:28:50.3576405Z

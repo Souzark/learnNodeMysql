@@ -1,0 +1,70 @@
+mysql-configurator Information: 10 : Package - setting up controller
+DateTime=2025-01-02T22:53:01.6245737Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2025-01-02T22:53:01.6491546Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2025-01-02T22:53:01.6576211Z
+mysql-configurator Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2025-01-02T22:53:01.6576211Z
+mysql-configurator Information: 10 : Product configuration controller created.
+DateTime=2025-01-02T22:53:01.6576211Z
+mysql-configurator Information: 10 : Package - Initializing controller
+DateTime=2025-01-02T22:53:01.6830773Z
+mysql-configurator Information: 10 : Package - Installed - Loading controller state
+DateTime=2025-01-02T22:53:01.6830773Z
+mysql-configurator Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2025-01-02T22:53:01.6830773Z
+mysql-configurator Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2025-01-02T22:53:01.6830773Z
+mysql-configurator Information: 10 : Reading general settings file from 'C:\Program Files\MySQL\MySQL Server 9.1'...
+DateTime=2025-01-02T22:53:01.6830773Z
+mysql-configurator Information: 10 : Loaded general settings file.
+DateTime=2025-01-02T22:53:01.6998048Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2025-01-02T22:53:01.9132562Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2025-01-02T22:53:01.9551991Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2025-01-02T22:53:01.9551991Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - loading IniFileEngine
+DateTime=2025-01-02T22:53:01.9551991Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - IniTemplate Parsing
+DateTime=2025-01-02T22:53:01.9720615Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - getting settings from IniTemplate
+DateTime=2025-01-02T22:53:02.0483708Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - getting settings from IniFileEngine
+DateTime=2025-01-02T22:53:02.0483708Z
+mysql-configurator Information: 10 : Reading general settings file from 'C:\Program Files\MySQL\MySQL Server 9.1'...
+DateTime=2025-01-02T22:53:02.1413613Z
+mysql-configurator Information: 10 : Loaded general settings file.
+DateTime=2025-01-02T22:53:02.1413613Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting License from location
+DateTime=2025-01-02T22:53:02.1579583Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting architecture from location
+DateTime=2025-01-02T22:53:02.1579583Z
+mysql-configurator Information: 10 : Beginning ServerRemovePage.
+DateTime=2025-01-02T22:53:02.6610949Z
+mysql-configurator Information: 10 : Status: Remove;MySQL Server 9.1.0;Data Directory: C:\ProgramData\MySQL\MySQL Server 9.1
+DateTime=2025-01-02T22:53:02.6690917Z
+mysql-configurator Information: 10 : Beginning RemoveApplyPage.
+DateTime=2025-01-02T22:57:26.8184864Z
+mysql-configurator Information: 10 : Starting removal of MySQL Server 9.1.0
+DateTime=2025-01-02T22:57:32.1628253Z
+mysql-configurator Information: 10 : Removing the Firewall rule created for port 3306.
+DateTime=2025-01-02T22:57:32.2582903Z
+mysql-configurator Information: 10 : Attempting to delete a Windows Firewall rule with command: netsh.exe advfirewall firewall delete rule name="Port 3306" protocol=TCP localport=3306
+DateTime=2025-01-02T22:57:32.2663144Z
+mysql-configurator Information: 10 : 
+1 regra(s) exclu¡da(s).
+Ok.
+
+
+DateTime=2025-01-02T22:57:32.6727556Z
+mysql-configurator Information: 10 : Removing the general settings file.
+DateTime=2025-01-02T22:57:32.6828170Z
+mysql-configurator Information: 10 : Removing the server configuration file.
+DateTime=2025-01-02T22:57:32.6916356Z
+mysql-configurator Information: 10 : Finished removal of MySQL Server 9.1.0 with state ConfigurationComplete
+DateTime=2025-01-02T22:57:32.6916356Z
+mysql-configurator Information: 10 : Configurator exit
+DateTime=2025-01-02T22:57:34.7512738Z

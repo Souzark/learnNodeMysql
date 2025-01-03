@@ -1,0 +1,36 @@
+mysql-configurator Information: 10 : Package - setting up controller
+DateTime=2024-12-26T02:46:54.1489337Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-26T02:46:54.2137646Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-26T02:46:54.2177497Z
+mysql-configurator Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2024-12-26T02:46:54.2177497Z
+mysql-configurator Information: 10 : Product configuration controller created.
+DateTime=2024-12-26T02:46:54.2187503Z
+mysql-configurator Information: 10 : Package - Initializing controller
+DateTime=2024-12-26T02:46:54.2901904Z
+mysql-configurator Information: 10 : Package - Installed - Loading controller state
+DateTime=2024-12-26T02:46:54.2971547Z
+mysql-configurator Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2024-12-26T02:46:54.2971547Z
+mysql-configurator Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2024-12-26T02:46:54.2971547Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2024-12-26T02:46:54.3012174Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2024-12-26T02:46:54.3352241Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2024-12-26T02:46:54.3472982Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - Loading default settings
+DateTime=2024-12-26T02:46:54.3482858Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2024-12-26T02:46:54.3482858Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting License from location
+DateTime=2024-12-26T02:46:54.3492821Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting architecture from location
+DateTime=2024-12-26T02:46:54.3502878Z
+mysql-configurator Warning: 15 : Nothing to remove. Ommiting showing an UI because MySQL Configurator was executed with disabled warning messages. 
+DateTime=2024-12-26T02:46:54.3512756Z
+mysql-configurator Information: 10 : Configurator exit
+DateTime=2024-12-26T02:46:54.3512756Z

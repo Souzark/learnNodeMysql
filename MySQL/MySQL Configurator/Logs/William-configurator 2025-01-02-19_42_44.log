@@ -1,0 +1,225 @@
+mysql-configurator Information: 10 : Package - setting up controller
+DateTime=2024-12-26T02:47:38.7357964Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-26T02:47:38.7572506Z
+mysql-configurator Information: 10 : Loading controllers from C:\Program Files\MySQL\MySQL Server 9.1\bin\mysql_configurator.exe
+DateTime=2024-12-26T02:47:38.7612148Z
+mysql-configurator Information: 10 : Creating configuration controller for: mysql-server.
+DateTime=2024-12-26T02:47:38.7622127Z
+mysql-configurator Information: 10 : Product configuration controller created.
+DateTime=2024-12-26T02:47:38.9425452Z
+mysql-configurator Information: 10 : Package - Initializing controller
+DateTime=2024-12-26T02:47:38.9639374Z
+mysql-configurator Information: 10 : Package - Installed - Loading controller state
+DateTime=2024-12-26T02:47:38.9688498Z
+mysql-configurator Information: 10 : Product Configuration Controller - Initializing controller
+DateTime=2024-12-26T02:47:38.9688498Z
+mysql-configurator Information: 10 : Product Configuration Controller - Loading Settings state
+DateTime=2024-12-26T02:47:38.9688498Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - load service information
+DateTime=2024-12-26T02:47:38.9708418Z
+mysql-configurator Information: 10 : Server Settings - Load Installed - Load my Ini Settings
+DateTime=2024-12-26T02:47:39.0067213Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - find existing config file
+DateTime=2024-12-26T02:47:39.0087247Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Settings - Loading default settings
+DateTime=2024-12-26T02:47:39.0097214Z
+mysql-configurator Information: 10 : Server Settings - Load Ini Defaults - setting initial ini values
+DateTime=2024-12-26T02:47:39.0097214Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting License from location
+DateTime=2024-12-26T02:47:39.0107083Z
+mysql-configurator Information: 10 : Product Configuration Controller - Setting architecture from location
+DateTime=2024-12-26T02:47:39.0107083Z
+mysql-configurator Information: 10 : Product configuration controller set to 'New' configuration type.
+DateTime=2024-12-26T02:47:39.2295669Z
+mysql-configurator Information: 10 : Beginning WelcomePage.
+DateTime=2024-12-26T02:47:39.4032696Z
+mysql-configurator Information: 10 : Status: New configuration;MySQL Server 9.1.0;
+DateTime=2024-12-26T02:47:39.4132361Z
+mysql-configurator Information: 10 : Beginning ServerConfigDataDirectoryPage.
+DateTime=2024-12-26T02:47:42.7184812Z
+mysql-configurator Information: 10 : Status: New configuration;MySQL Server 9.1.0;Data Directory: C:\ProgramData\MySQL\MySQL Server 9.1\
+DateTime=2024-12-26T02:47:43.9727296Z
+mysql-configurator Information: 10 : Beginning ServerConfigLocalMachinePage.
+DateTime=2024-12-26T02:47:44.0575684Z
+mysql-configurator Information: 10 : Advancing to next step using:
+	Service Name: MySQL91
+	Enable TCP/IP: True
+	Port: 3306
+	Enable pipe: False
+	Pipe name: MYSQL
+	Enable shared memory: False
+	Memory name MYSQL
+DateTime=2024-12-26T02:49:29.3965558Z
+mysql-configurator Information: 10 : Beginning ServerConfigUserAccountsPage.
+DateTime=2024-12-26T02:49:29.4461115Z
+mysql-configurator Information: 10 : Adding User: souzark@% as DB Admin
+DateTime=2024-12-26T02:50:02.2449654Z
+mysql-configurator Information: 10 : Beginning ServerConfigServicePage.
+DateTime=2024-12-26T02:50:02.2739103Z
+mysql-configurator Information: 10 : Advancing to next step using:
+	Service Name: MySQL91
+	Auto-start Service at boot: True
+	Service Account User: NT AUTHORITY\NetworkService
+DateTime=2024-12-26T02:50:08.2610036Z
+mysql-configurator Information: 10 : Beginning ServerConfigSecurityPage.
+DateTime=2024-12-26T02:50:08.2669674Z
+mysql-configurator Information: 10 : Beginning ServerExampleDatabasesPage.
+DateTime=2024-12-26T02:50:15.5093577Z
+mysql-configurator Information: 10 : Beginning ServerConfigSecurityPage.
+DateTime=2024-12-26T02:50:24.6948177Z
+mysql-configurator Information: 10 : Beginning ServerConfigServicePage.
+DateTime=2024-12-26T02:50:25.9911110Z
+mysql-configurator Information: 10 : Advancing to next step using:
+	Service Name: MySQL91
+	Auto-start Service at boot: True
+	Service Account User: NT AUTHORITY\NetworkService
+DateTime=2024-12-26T02:50:33.0986552Z
+mysql-configurator Information: 10 : Beginning ServerConfigSecurityPage.
+DateTime=2024-12-26T02:50:33.1016516Z
+mysql-configurator Information: 10 : Beginning ServerExampleDatabasesPage.
+DateTime=2024-12-26T02:50:38.5026467Z
+mysql-configurator Information: 10 : Beginning ConfigApplyPage.
+DateTime=2024-12-26T02:50:39.8687571Z
+mysql-configurator Information: 10 : Starting configuration of MySQL Server 9.1.0
+DateTime=2024-12-26T02:50:55.3005164Z
+mysql-configurator Information: 10 : Saving my.ini configuration file...
+DateTime=2024-12-26T02:50:55.3204592Z
+mysql-configurator Information: 10 : Saving general settings file to 'C:\Program Files\MySQL\MySQL Server 9.1\configurator_settings.xml'...
+DateTime=2024-12-26T02:50:55.4062725Z
+mysql-configurator Information: 10 : Saved general settings file.
+DateTime=2024-12-26T02:50:55.4162926Z
+mysql-configurator Information: 10 : Saved my.ini configuration file.
+DateTime=2024-12-26T02:50:55.4192940Z
+mysql-configurator Information: 10 : Adding a Windows Firewall rule for MySQL91 on port 3306.
+DateTime=2024-12-26T02:50:55.4282632Z
+mysql-configurator Information: 10 : Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 3306" protocol=TCP localport=3306 dir=in action=allow
+DateTime=2024-12-26T02:50:55.4312443Z
+mysql-configurator Information: 10 : Ok.
+
+
+DateTime=2024-12-26T02:50:55.7498339Z
+mysql-configurator Information: 10 : Successfully added the Windows Firewall rule.
+DateTime=2024-12-26T02:50:55.7518282Z
+mysql-configurator Information: 10 : Adding a Windows Firewall rule for MySQL91 on port 33060.
+DateTime=2024-12-26T02:50:55.7538201Z
+mysql-configurator Information: 10 : Attempting to add a Windows Firewall rule with command: netsh.exe advfirewall firewall add rule name="Port 33060" protocol=TCP localport=33060 dir=in action=allow
+DateTime=2024-12-26T02:50:55.7558144Z
+mysql-configurator Information: 10 : Ok.
+
+
+DateTime=2024-12-26T02:50:55.8129422Z
+mysql-configurator Information: 10 : Successfully added the Windows Firewall rule.
+DateTime=2024-12-26T02:50:55.8149359Z
+mysql-configurator Information: 10 : Attempting to grant the required filesystem permissions to the 'NT AUTHORITY\NetworkService' account.
+DateTime=2024-12-26T02:50:55.8239055Z
+mysql-configurator Information: 10 : Granted permissions to the data directory.
+DateTime=2024-12-26T02:50:55.8328752Z
+mysql-configurator Information: 10 : Granted permissions to the install directory.
+DateTime=2024-12-26T02:50:55.8597854Z
+mysql-configurator Information: 10 : Adding new service
+DateTime=2024-12-26T02:50:55.8617893Z
+mysql-configurator Information: 10 : New service added
+DateTime=2024-12-26T02:50:55.8767299Z
+mysql-configurator Information: 10 : Attempting to run MySQL Server with --initialize-insecure option...
+DateTime=2024-12-26T02:50:55.8847026Z
+mysql-configurator Error: 50 : Failed to retrieve the data directory from the MySQL Server instance.
+DateTime=2024-12-26T02:50:58.2617569Z
+mysql-configurator Error: 50 : Unable to connect to any of the specified MySQL hosts.
+DateTime=2024-12-26T02:50:58.2617569Z
+mysql-configurator Information: 10 : Starting process for MySQL Server 9.1.0...
+DateTime=2024-12-26T02:50:58.2668255Z
+mysql-configurator Information: 10 : Starting process with command: C:\Program Files\MySQL\MySQL Server 9.1\bin\mysqld.exe --defaults-file="C:\ProgramData\MySQL\MySQL Server 9.1\my.ini" --console --initialize-insecure=on --lower-case-table-names=1...
+DateTime=2024-12-26T02:50:58.2707373Z
+mysql-configurator Information: 10 : MySQL Server Initialization - start.
+DateTime=2024-12-26T02:50:58.4509046Z
+mysql-configurator Information: 10 : C:\Program Files\MySQL\MySQL Server 9.1\bin\mysqld.exe (mysqld 9.1.0) initializing of server in progress as process 6248
+DateTime=2024-12-26T02:50:58.4528887Z
+mysql-configurator Information: 10 : InnoDB initialization has started.
+DateTime=2024-12-26T02:50:58.4689691Z
+mysql-configurator Information: 10 : InnoDB initialization has ended.
+DateTime=2024-12-26T02:50:59.2961510Z
+mysql-configurator Information: 10 : root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+DateTime=2024-12-26T02:51:01.8073063Z
+mysql-configurator Information: 10 : MySQL Server Initialization - end.
+DateTime=2024-12-26T02:51:04.2474934Z
+mysql-configurator Information: 10 : Process for mysqld, with ID 6248, was run successfully and exited with code 0.
+DateTime=2024-12-26T02:51:04.2734911Z
+mysql-configurator Information: 10 : Successfully started process for MySQL Server 9.1.0.
+DateTime=2024-12-26T02:51:04.2755518Z
+mysql-configurator Information: 10 : MySQL Server 9.1.0 intialized the database successfully.
+DateTime=2024-12-26T02:51:04.2775462Z
+mysql-configurator Information: 10 : Attempting to update the permissions for the data folder and related server files...
+DateTime=2024-12-26T02:51:04.2916046Z
+mysql-configurator Error: 50 : Failed to retrieve the data directory from the MySQL Server instance.
+DateTime=2024-12-26T02:51:06.2972443Z
+mysql-configurator Error: 50 : Unable to connect to any of the specified MySQL hosts.
+DateTime=2024-12-26T02:51:06.2972443Z
+mysql-configurator Information: 10 : Inherited permissions have been converted to explicit permissions.
+DateTime=2024-12-26T02:51:06.3311228Z
+mysql-configurator Information: 10 : Full control permissions granted to: SERVIÇO DE REDE.
+DateTime=2024-12-26T02:51:06.3601008Z
+mysql-configurator Information: 10 : Full control permissions granted to: Administradores.
+DateTime=2024-12-26T02:51:06.4132065Z
+mysql-configurator Information: 10 : Full control permissions granted to: PROPRIETÁRIO CRIADOR.
+DateTime=2024-12-26T02:51:06.4431884Z
+mysql-configurator Information: 10 : Full control permissions granted to: SISTEMA.
+DateTime=2024-12-26T02:51:06.4710221Z
+mysql-configurator Information: 10 : Access to the data directory is removed for the users group.
+DateTime=2024-12-26T02:51:06.4909549Z
+mysql-configurator Information: 10 : Permissions for the data folder and related server files are updated correctly.
+DateTime=2024-12-26T02:51:06.7444116Z
+mysql-configurator Information: 10 : Attempting to start service MySQL91...
+DateTime=2024-12-26T02:51:06.7643387Z
+mysql-configurator Verbose: 5 : 25/12/2024 23:51:06 - Service MySQL91 is stopped or paused, so it can be started.
+DateTime=2024-12-26T02:51:06.7693298Z
+mysql-configurator Verbose: 5 : 25/12/2024 23:51:06 - Attempting to start the MySQL91 service...
+DateTime=2024-12-26T02:51:06.7693298Z
+mysql-configurator Information: 10 : MySQL Server - start.
+DateTime=2024-12-26T02:51:07.7819691Z
+mysql-configurator Information: 10 : C:\Program Files\MySQL\MySQL Server 9.1\bin\mysqld.exe (mysqld 9.1.0) starting as process 11704
+DateTime=2024-12-26T02:51:07.7839635Z
+mysql-configurator Information: 10 : InnoDB initialization has started.
+DateTime=2024-12-26T02:51:07.7849601Z
+mysql-configurator Information: 10 : InnoDB initialization has ended.
+DateTime=2024-12-26T02:51:07.7869524Z
+mysql-configurator Verbose: 5 : 25/12/2024 23:51:08 - MySQL91 service was started successfully.
+DateTime=2024-12-26T02:51:08.2977275Z
+mysql-configurator Information: 10 : CA certificate ca.pem is self signed.
+DateTime=2024-12-26T02:51:08.9979295Z
+mysql-configurator Information: 10 : Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+DateTime=2024-12-26T02:51:09.0019160Z
+mysql-configurator Information: 10 : X Plugin ready for connections. Bind-address: '::' port: 33060
+DateTime=2024-12-26T02:51:09.0059026Z
+mysql-configurator Information: 10 : C:\Program Files\MySQL\MySQL Server 9.1\bin\mysqld.exe: ready for connections. Version: '9.1.0'  socket: ''  port: 3306  MySQL Community Server - GPL.
+DateTime=2024-12-26T02:51:09.0079041Z
+mysql-configurator Information: 10 : Successfully started service MySQL91.
+DateTime=2024-12-26T02:51:10.0129410Z
+mysql-configurator Information: 10 : Waiting until a connection to MySQL Server 9.1.0 can be established (with a maximum of 10 attempts)...
+DateTime=2024-12-26T02:51:10.0199871Z
+mysql-configurator Information: 10 : Retry 1: Attempting to connect to Mysql@localhost:3306 with user root with no password...
+DateTime=2024-12-26T02:51:10.0229423Z
+mysql-configurator Information: 10 : Successfully connected to MySQL Server 9.1.0.
+DateTime=2024-12-26T02:51:10.2683442Z
+mysql-configurator Information: 10 : Attempting to update security settings.
+DateTime=2024-12-26T02:51:10.2773143Z
+mysql-configurator Information: 10 : Updated security settings.
+DateTime=2024-12-26T02:51:10.3368220Z
+mysql-configurator Information: 10 : Attempting to Add New MySQL Users
+DateTime=2024-12-26T02:51:10.3418155Z
+mysql-configurator Information: 10 : Added new users to the MySQL database successfully.
+DateTime=2024-12-26T02:51:10.3826696Z
+mysql-configurator Information: 10 : Attempting to verify command-line client shortcut.
+DateTime=2024-12-26T02:51:10.3956350Z
+mysql-configurator Information: 10 : Verified command-line client shortcut.
+DateTime=2024-12-26T02:51:10.5311722Z
+mysql-configurator Information: 10 : Verified command-line client shortcut.
+DateTime=2024-12-26T02:51:10.5371513Z
+mysql-configurator Information: 10 : Updating example databases...
+DateTime=2024-12-26T02:51:10.5501135Z
+mysql-configurator Information: 10 : Finished configuration of MySQL Server 9.1.0 with state ConfigurationComplete
+DateTime=2024-12-26T02:51:15.5624280Z
+mysql-configurator Information: 10 : Beginning ConfigCompletePage.
+DateTime=2024-12-26T03:03:03.0724017Z
+mysql-configurator Information: 10 : Configurator exit
+DateTime=2024-12-26T03:03:06.7196738Z
