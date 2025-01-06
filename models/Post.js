@@ -11,10 +11,3 @@ const Post = db.sequelize.define('postagens', {
 
 module.exports = Post;  
 
-Post.sync({ force: true })
-    .then(() => {
-        console.log('Tabela criada com sucesso!');
-    })
-    .catch((error) => {
-        console.error('Erro ao criar a tabela:', error);
-    });
